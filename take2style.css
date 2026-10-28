@@ -1,0 +1,163 @@
+/* Basic Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: white;
+  color: black;
+}
+
+/* Top Bar - 3 hisso me baanta hai */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  font-family: Georgia, serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.editions {
+  font-size: 10px;
+}
+
+.top-right button {
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sub-btn {
+  background-color: #567b95;
+  color: white;
+  border: none;
+}
+
+.login-btn {
+  background-color: white;
+  border: 1px solid gray;
+}
+
+/* Nav Bar - World U.S. Politics wala */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  border-bottom: 2px solid black;
+  padding: 8px 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 12px;
+}
+
+/* Main Content - 3 Columns */
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.col-left {
+  width: 30%;
+  border-right: 1px solid lightgray;
+  padding-right: 15px;
+}
+
+.col-middle {
+  width: 40%;
+  border-right: 1px solid lightgray;
+  padding-right: 15px;
+}
+
+.col-right {
+  width: 30%;
+}
+
+.live {
+  color: red;
+  font-weight: bold;
+}
+
+.main-headline {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 13px;
+  color: #333;
+}
+
+/* Air Quality Box */
+.aq-box {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid lightgray;
+}
+
+.aq-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.aq-item {
+  background-color: white;
+  width: 48%;
+  text-align: center;
+  padding: 8px;
+  font-size: 11px;
+  border-top: 4px solid red;
+}
+
+/* Images */
+.main-image img, .map-card img, .right-image img {
+  width: 100%;
+}
+
+.caption {
+  font-size: 10px;
+  color: gray;
+  text-align: right;
+}
+
+.middle-bottom {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.right-small-grid {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.small-story h5 {
+  font-size: 12px;
+}
+
+.read-time {
+  font-size: 10px;
+  color: gray;
+}
